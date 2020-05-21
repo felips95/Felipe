@@ -1,0 +1,109 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;  
+}
+
+header {
+    background-color:#3a3e82;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-auto-rows: 80vh 0vh;
+    height: 90vh;
+}
+
+.menu {
+    position: fixed;
+    width: 100vw;
+    background-color: #141414;
+    top: 0;
+}
+
+.menu ul {
+      display: flex;
+      justify-content: space-evenly;
+}
+
+.menu li {
+      list-style: none;
+}
+
+.menu a {
+      display: block;
+      text-decoration: none;
+      color: #f2f2f2;
+      padding: 15px 30px;
+}
+
+.menu a:hover {
+      text-decoration: underline;
+      color: #141414;
+      background-color: #ffffff;
+}
+
+.titulo,
+.subtitulo {
+      text-align: center;
+      color: #F2F2F2;
+}
+  
+.titulo {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2.3em;
+}
+
+.subtitulo {
+    font-family: 'Cutive Mono', monospace;
+    margin-top: 25px;
+}
+ 
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+}
+
+.social img {
+    height: 40px;
+}
+
+.instagram {
+    background: url(../img/instagram-big-logo.svg);
+    height: 40px;
+    width: 40px;
+}
+
+.instagram:hover {
+    background: url(../img/instagram-big-logo-hover.svg); 
+}
+
+.facebook {
+    background: url(../img/logo-do-facebook.svg);
+    height: 40px;
+    width: 40px;
+}
+
+.facebook:hover {
+    background: url(../img/logo-do-facebook-hover.svg); 
+}
+
+.twitter {
+    background: url(../img/logotipo-do-twitter.svg);
+    height: 40px;
+    width: 40px;
+}
+
+.twitter:hover {
+    background: url(../img/logotipo-do-twitter-hover.svg); 
+}
+
+footer {
+    background-color:#141414;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
