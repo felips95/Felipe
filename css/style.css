@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #141414;
+    background-color: #f2f2f2;
 }
 
 header {
@@ -14,7 +14,7 @@ header {
     align-items: center;
     justify-content: center;
     grid-auto-rows: 80vh 0vh;
-    height: 90vh;
+    height: 100vh;
     background-image: url(../img/Sky.jpg);
     background-size: cover;
 }
