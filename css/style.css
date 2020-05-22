@@ -5,13 +5,18 @@
     font-family: 'Source Code Pro', monospace;  
 }
 
+body {
+    background-color: #f2f2f2;
+}
+
 header {
-    background-color:#3a3e82;
     display: grid;
     align-items: center;
     justify-content: center;
     grid-auto-rows: 80vh 0vh;
     height: 90vh;
+    background-image: url(../img/Sky.jpg);
+    background-size: cover;
 }
 
 .menu {
@@ -40,7 +45,7 @@ header {
 .menu a:hover {
       text-decoration: underline;
       color: #141414;
-      background-color: #ffffff;
+      background-color: #f2f2f2;
 }
 
 .titulo,
@@ -99,6 +104,47 @@ header {
     background: url(../img/logotipo-do-twitter-hover.svg); 
 }
 
+main {
+    padding: 45px;
+    text-align: center;
+    display: block;
+}
+
+main h2 {
+    margin-bottom: 30px;
+}
+
+.apresentação {
+    margin: 70px 0px 100px;
+    max-width: 460px;
+    display: inline-block;
+}
+
+main .grid {
+    display: grid;
+    gap:0.5em;
+    justify-content: center;
+}
+
+@media (min-width:560px) {
+    main .grid {
+        grid-template-columns: 230px 230px;
+    }
+}
+
+@media (min-width:800px) {
+    main .grid {
+        grid-template-columns: 230px 230px 230px;
+    }
+}
+
+.img {
+    height: 150px;
+    width: 230px;
+    object-fit: cover;
+    object-position: center;
+}
+
 footer {
     background-color:#141414;
     color: #f2f2f2;
@@ -106,4 +152,6 @@ footer {
     justify-content: center;
     align-items: center;
     height: 10vh;
+    text-align: center;
 }
+
