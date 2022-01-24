@@ -13,6 +13,7 @@ body {
 
 .top {
    width: 100%; 
+   overflow: hidden;
 }
 
 .menu-display {
