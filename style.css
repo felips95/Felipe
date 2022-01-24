@@ -11,8 +11,8 @@ body {
     color: #22223B;
 }
 
-header {
-    width: 100%;
+.top {
+   width: 100%; 
 }
 
 .menu-display {
