@@ -10,15 +10,13 @@ function menu() {
         setaIcon.style.display = 'block';
         menuIcon.style.display = 'none';
         search.style.display = 'none';        
-        body.style.overflow = 'hidden';
-        body.style.position = 'fixed';        
+        body.style.overflow = 'hidden';          
     } 
     else {
         menu.style.display = 'none';
         body.style.overflow = 'auto';
         menuIcon.style.display = 'block';
         search.style.display = 'flex';
-        setaIcon.style.display = 'none';
-        body.style.position = 'relative'; 
+        setaIcon.style.display = 'none'; 
     }
 }
