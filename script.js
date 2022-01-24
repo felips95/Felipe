@@ -1,7 +1,7 @@
 function menu() {
     let menu = document.querySelector('.menu');
     let body = document.querySelector('body');
-    let top = document.querySelector('top');
+    let top = document.querySelector('.top');
     let menuIcon = document.querySelector('.menu-icon');
     let setaIcon = document.querySelector('.seta-icon');
     let search = document.querySelector('.search');
