@@ -15,14 +15,26 @@
 
         <nav class="menu-display">
 
-            <a href="#"><img class="icon" src="menu.svg" alt="menu"></a>
+            <a href="#" class="menu-icon-display" onclick="menu()">
+                <img class="menu-icon" src="menu.svg" alt="abrir menu" style="display: block;">
+                <img class="seta-icon" src="angle-down.svg" alt="fecher menu" style="display: none;">
+            </a>
+
             <h1 class="logo">DesingX</h1>
             <a href="#"><img class="icon" src="shopping-bag.svg" alt="cart"></a>
 
         </nav>
 
-        <div class="search">
+        <div class="menu" style="display: none;">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
 
+        <div class="search">
             <form class="div-busca">
                 <img class="lupa" src="search.svg" alt="">
                 <input class="busca" type="text" placeholder="Search for Anything!">
@@ -32,7 +44,6 @@
 
         </div>
 
-        
     </header>
 
     <main>
@@ -77,7 +88,7 @@
             </div>
 
         </section>
-        
+
         <a href="#"><img class="painel" src="painel.jpg" alt=""></a>
 
         <section class="lancamentos">
@@ -95,17 +106,8 @@
                         <h3>Anel</h3>
                         <h3>$10.000</h3>
                         <a class="comprar" href="#">Comprar</a>
-                    </div>                    
-                </div>  
-                
-                <div class="card">
-                    <a href="#"><img class="img" src="anel1.jpg" alt=""></a>
-                    <div class="description">
-                        <h3>Anel</h3>
-                        <h3>$10.000</h3>
-                        <a class="comprar" href="#">Comprar</a>
-                    </div>                    
-                </div>    
+                    </div>
+                </div>
 
                 <div class="card">
                     <a href="#"><img class="img" src="anel1.jpg" alt=""></a>
@@ -113,8 +115,8 @@
                         <h3>Anel</h3>
                         <h3>$10.000</h3>
                         <a class="comprar" href="#">Comprar</a>
-                    </div>                    
-                </div>    
+                    </div>
+                </div>
 
                 <div class="card">
                     <a href="#"><img class="img" src="anel1.jpg" alt=""></a>
@@ -122,10 +124,19 @@
                         <h3>Anel</h3>
                         <h3>$10.000</h3>
                         <a class="comprar" href="#">Comprar</a>
-                    </div>                    
-                </div> 
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="#"><img class="img" src="anel1.jpg" alt=""></a>
+                    <div class="description">
+                        <h3>Anel</h3>
+                        <h3>$10.000</h3>
+                        <a class="comprar" href="#">Comprar</a>
+                    </div>
+                </div>
             </div>
-            
+
 
         </section>
 
@@ -144,17 +155,8 @@
                         <h3>Anel</h3>
                         <h3>$10.000</h3>
                         <a class="comprar" href="#">Comprar</a>
-                    </div>                    
-                </div>  
-                
-                <div class="card">
-                    <a href="#"><img class="img" src="anel1.jpg" alt=""></a>
-                    <div class="description">
-                        <h3>Anel</h3>
-                        <h3>$10.000</h3>
-                        <a class="comprar" href="#">Comprar</a>
-                    </div>                    
-                </div>    
+                    </div>
+                </div>
 
                 <div class="card">
                     <a href="#"><img class="img" src="anel1.jpg" alt=""></a>
@@ -162,8 +164,8 @@
                         <h3>Anel</h3>
                         <h3>$10.000</h3>
                         <a class="comprar" href="#">Comprar</a>
-                    </div>                    
-                </div>    
+                    </div>
+                </div>
 
                 <div class="card">
                     <a href="#"><img class="img" src="anel1.jpg" alt=""></a>
@@ -171,8 +173,17 @@
                         <h3>Anel</h3>
                         <h3>$10.000</h3>
                         <a class="comprar" href="#">Comprar</a>
-                    </div>                    
-                </div> 
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="#"><img class="img" src="anel1.jpg" alt=""></a>
+                    <div class="description">
+                        <h3>Anel</h3>
+                        <h3>$10.000</h3>
+                        <a class="comprar" href="#">Comprar</a>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -184,5 +195,7 @@
     </footer>
 
 </body>
+
+<script src="script.js"></script>
 
 </html>
