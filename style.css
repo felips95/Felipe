@@ -45,7 +45,7 @@ body {
 }
 
 .asdf.change span:nth-child(1) {
-    transform: translateY(300%) translateX(-20%) rotate(45deg) scaleX(0.7);
+    transform: translateY(7px) translateX(-3px) rotate(45deg) scaleX(0.7);
 }
 
 .asdf.change span:nth-child(2) {
@@ -54,7 +54,7 @@ body {
 }
 
 .asdf.change span:nth-child(3) {
-    transform: translateY(-300%) translateX(21%) rotate(-45deg) scaleX(0.7);
+    transform: translateY(-10px) translateX(5px) rotate(-45deg) scaleX(0.7);
 }
 
 /*menu animado fim*/
