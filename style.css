@@ -38,7 +38,7 @@ body {
 
 .menu {
     padding:20px;
-    height: calc(100vh - 80px);
+    height: 100vh;
     background-color: #F2E9E4;
 }
 
